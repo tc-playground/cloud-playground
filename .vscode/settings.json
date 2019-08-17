@@ -1,0 +1,24 @@
+{
+    "cSpell.words": [
+        "Baremetal",
+        "CHOWN",
+        "SETGID",
+        "SETUID",
+        "Scaleway",
+        "bootable",
+        "busybox",
+        "cmdline",
+        "containerd",
+        "dhcpcd",
+        "linuxkit",
+        "nginx",
+        "nobackground",
+        "onboot",
+        "onshutdown",
+        "resolv",
+        "rngd",
+        "runc",
+        "sbin",
+        "sysctl"
+    ]
+}
