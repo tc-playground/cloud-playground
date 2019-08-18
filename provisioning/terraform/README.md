@@ -10,7 +10,7 @@
 
 ## Resources
 
-* `Resources` are central focus.
+* `Resources` are the central focus.
 
     * `Resources` have a `type label` - e.g. `instance`, `NAT Gateway`, etc.
 
