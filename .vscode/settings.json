@@ -9,6 +9,7 @@
         "busybox",
         "cmdline",
         "containerd",
+        "dashboarding",
         "dhcpcd",
         "linuxkit",
         "nginx",
