@@ -4,7 +4,7 @@
 
 * Set-up and explore a vanilla `prometheus` instance (in a `Docker` container).
 
-> NB: This example uses `Docker Swarm`.
+> NB: This example uses `Docker Stacks`.
 
 ---
 
