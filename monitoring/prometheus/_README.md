@@ -32,6 +32,28 @@
 
 ---
 
+## Metric Types
+
+
+* There are 4 Prometheus `metric types`:
+
+    * `Counter` - **Numeric values** that only may increase such as number of requests served.
+
+    * `Gauge` - **Numeric values** that can go both up or down. Temperatures, blood pressure, heap size, CPU utilization etc.
+
+    * `Histogram` - Representation of the **distribution of numerical data**, placed into **buckets**. The most common use in monitoring is for measuring response times and placing each observation into a bucket.
+
+    * `Summary` - Representation of the **distribution of numerical data**, placed into **quantiles**.
+
+---
+
+## Instrumenting Code (`github.com/prometheus/client_golang`)
+
+* A `registry` is used to manage all the `metrics` being collated.
+
+
+---
+
 ## Architecture
 
 ![Prometheus Architecture](./prometheus-architecture.png)
@@ -43,6 +65,8 @@
 * [Instrument a Golang Server in 5 minute](https://medium.com/@gsisimogang/instrumenting-golang-server-in-5-min-c1c32489add3)
 
 * [Instrument Golang Service - RED Method](https://dev.to/dzeban/instrumenting-a-go-service-for-prometheus-khp)
+
+    * [Alt Version](https://alex.dzyoba.com/blog/go-prometheus-service/)
 
 * [Prometheus Monitoring](https://blog.alexellis.io/prometheus-monitoring/)
 
